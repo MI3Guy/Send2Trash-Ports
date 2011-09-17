@@ -1,0 +1,3 @@
+Send2Trash Ports is a collection (currently only Unix/Mono .NET with no specific plans any others, just leaving it open for expansion) of libraries that allow files and directories to be sent to the trash.
+
+Send2Trash.NET was ported to C# to allow Xenon File Manager to trash files on freedesktop operating systems.

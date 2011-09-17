@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send2Trash.NET", "Send2Trash.NET\Send2Trash.NET.csproj", "{B40FF704-C8ED-4EAD-BB95-C88060DE4191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send2Trash.NET_Test", "Send2Trash.NET_Test\Send2Trash.NET_Test.csproj", "{6063FE51-D7C6-423F-AC6A-CB4EC24D372F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6063FE51-D7C6-423F-AC6A-CB4EC24D372F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6063FE51-D7C6-423F-AC6A-CB4EC24D372F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6063FE51-D7C6-423F-AC6A-CB4EC24D372F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6063FE51-D7C6-423F-AC6A-CB4EC24D372F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40FF704-C8ED-4EAD-BB95-C88060DE4191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40FF704-C8ED-4EAD-BB95-C88060DE4191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40FF704-C8ED-4EAD-BB95-C88060DE4191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40FF704-C8ED-4EAD-BB95-C88060DE4191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Send2Trash.NET_Test\Send2Trash.NET_Test.csproj
+	EndGlobalSection
+EndGlobal
