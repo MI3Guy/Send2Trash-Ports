@@ -24,6 +24,7 @@
 // find or create the user's trash directory.
 using System;
 using System.IO;
+using System.Web;
 using Mono.Unix;
 using Mono.Unix.Native;
 
@@ -55,10 +56,10 @@ namespace Send2Trash {
 				src = UnixPath.GetFullPath(src);
 			}
 			else {
-				src = new Uri("file://" + top_dir + "/").MakeRelativeUri(new Uri("file://" + src)).ToString();
+				src = HttpUtility.UrlDecode(new Uri("file://" + top_dir + "/").MakeRelativeUri(new Uri("file://" + src)).ToString());
 			}
 			
-			return string.Format("[Trash Info]\nPath=\"{0}\"\nDeletionDate=\"{1}\"\n", src, format_date(DateTime.Now));
+			return string.Format("[Trash Info]\nPath={0}\nDeletionDate=\"{1}\"\n", src, format_date(DateTime.Now));
 		}
 		
 /*def info_for(src, topdir):
